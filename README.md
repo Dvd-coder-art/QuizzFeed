@@ -1,8 +1,6 @@
+# Desafio da DIO do bootcamp Decola Tech.
 
-# QuizzFeed
-Desafio da DIO do bootcamp Decola Tech.
-=======
-# ProjetoBuzzfeed
+## ProjetoBuzzfeed
 
 
 ## Development server
