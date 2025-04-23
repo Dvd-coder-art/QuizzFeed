@@ -1,61 +1,72 @@
-# Desafio da DIO do bootcamp Decola Tech.
+# 🧠 Quizz Feed Simples - Angular
 
-## ProjetoBuzzfeed
+Um projeto simples de quiz interativo desenvolvido com Angular. Ideal para aprender, testar conhecimentos ou apenas se divertir respondendo perguntas de múltipla escolha com feedback instantâneo!
 
+## 🚀 Funcionalidades
 
-## Development server
+- ✅ Exibição de perguntas e alternativas  
+- ✅ Feedback visual para respostas corretas/incorretas  
+- ✅ Contador de pontuação  
+- ✅ Navegação entre perguntas  
+- ✅ Interface responsiva e amigável  
 
-To start a local development server, run:
+## 🛠️ Tecnologias Utilizadas
+
+- [Angular](https://angular.io/) (versão X)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)  
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)  
+
+## 📦 Como Executar o Projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/Dvd-coder-art/QuizzFeed.git
+cd QuizzFeed
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Inicie o servidor de desenvolvimento:
 
 ```bash
 ng serve
 ```
+Acesse em seu navegador:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
+```arduino
+http://localhost:4200
+```
+## 📁 Estrutura do Projeto
 ```bash
-ng generate component component-name
+src/
+├── app/
+│   ├── components/
+│   │   └── quiz/
+│   │       ├── quiz.component.ts
+│   │       ├── quiz.component.html
+│   │       └── quiz.component.css
+│   ├── models/
+│   │   └── question.model.ts
+│   └── app.module.ts
+├── assets/
+│   └── questions.json
+└── index.html
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## ✨ Futuras Melhorias
+- Armazenamento de pontuação com localStorage
 
-```bash
-ng generate --help
-```
+- Seleção de categorias ou temas de quiz
 
-## Building
+- Integração com banco de dados para criar quizzes dinâmicos
 
-To build the project run:
+- Temporizador para cada pergunta
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
->>>>>>> 4c49f9b (initial commit)
+👨‍💻 Autor
+Desenvolvido por David com 🍵.
